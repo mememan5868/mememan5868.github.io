@@ -1,12 +1,13 @@
 body {
    font-family: "MOBO-Bold", "Noto Sans CJK JP", sans-serif;
   overflow-x: hidden;
-  border: 1px solid black;
 }
 
 #top{
   position: relative;
-  right:5%;
+  right: 0.1%;
+  border: 1px solid black;
+  width: 99vw
 }
 
 div.pageTitle{
@@ -14,6 +15,7 @@ div.pageTitle{
   text-align: center;
   display=flex;
   width: 100vw;
+  right: 2%;
   font-size: 250%;
 }
 
@@ -70,4 +72,26 @@ p.yukkuri{
   text-align: center;
   position: relative;
   left: 4%;
+}
+
+
+
+#posts{
+  position: relative;
+  bottom: 25%;
+}
+
+.txt{
+  right: 5%;
+}
+
+h1.latest{
+  margin: 0 0 0 15%;
+  text-decoration: underline
+}
+
+.yohaku{
+  width:50vw;
+  position: relative;
+  left: 25%;
 }
