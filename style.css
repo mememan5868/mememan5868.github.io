@@ -1,3 +1,26 @@
-head {
-  font-family: "游明朝"
+body {
+   font-family: "Yu Gothic", "YuGothic", "Noto Sans CJK JP", sans-serif;
 }
+
+div.pageTitle{
+  position: relative;
+  left: 40%;
+  display=flex;
+}
+.flex{
+
+  display: flex;
+}
+
+#title{
+  margin: -3.3% 0 0 3%;
+}
+
+#titleIcon{
+  height: 3%;
+  width: 3%;
+}
+#subTitle{
+  margin: 0 0 0 6.5%;
+}
+
