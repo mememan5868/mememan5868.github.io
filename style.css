@@ -1,26 +1,73 @@
 body {
-   font-family: "Yu Gothic", "YuGothic", "Noto Sans CJK JP", sans-serif;
+   font-family: "MOBO-Bold", "Noto Sans CJK JP", sans-serif;
+  overflow-x: hidden;
+  border: 1px solid black;
+}
+
+#top{
+  position: relative;
+  right:5%;
 }
 
 div.pageTitle{
   position: relative;
-  left: 40%;
+  text-align: center;
   display=flex;
+  width: 100vw;
+  font-size: 250%;
 }
-.flex{
 
+.flex{
   display: flex;
+/*  margin: 3% 0 0 0;*/
 }
 
 #title{
-  margin: -3.3% 0 0 3%;
-}
 
+  position: relative;
+  left: 3%;
+  /*margin: -2.8% 0 0 3%;*/
+}
 #titleIcon{
-  height: 3%;
-  width: 3%;
+  position: relative;
+  left: 42%;
+  bottom: 100%;
+  height: 20%;
+  width: 20%;
 }
 #subTitle{
-  margin: 0 0 0 6.5%;
+  margin: 0 0 0 3.5%;
 }
 
+#box{
+
+  position: fixed;
+  bottom: 1%;
+  width: 99%;
+  height: auto;
+}
+
+span.pageTitle{
+  position: relative;
+  left: 3%;
+}
+
+hr.hr{
+  position: relative;
+  right: 20%;
+}
+
+div.mokuji{
+  font-size: 50%;
+  position:relative;
+  left: 45%;
+
+  border: 1px solid black;
+  width: 13%;
+}
+
+p.yukkuri{
+  text-align: center;
+  position: relative;
+  left: 4%;
+}
