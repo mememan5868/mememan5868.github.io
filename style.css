@@ -7,7 +7,7 @@
 body {
    font-family: "mySite", "Noto Sans CJK JP", sans-serif;
   overflow-x: hidden;
-  width: 85%;
+  width: 90%;
 }
 
 #top{
@@ -15,7 +15,7 @@ body {
   border: 1px solid black;
   width: 90vw
   position: relative; 
-  left:13%;
+  left:12%;
 }
 
 div.pageTitle{
