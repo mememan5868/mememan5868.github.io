@@ -19,7 +19,6 @@ body {
 div.pageTitle{
   position: relative;
   text-align: center;
-  display=flex;
   width: 100vw;
   right: 2%;
   font-size: 250%;
@@ -32,8 +31,9 @@ div.pageTitle{
 
 #title{
 
+  width: 75vw;
   position: relative;
-  left: 3%;
+  left: 14%;
   /*margin: -2.8% 0 0 3%;*/
 }
 #titleIcon{
