@@ -68,6 +68,11 @@ div.mokuji{
   width: 13vw;
 }
 
+li{
+
+  text-align: left;
+}
+
 p.yukkuri{
   text-align: center;
   position: relative;
@@ -94,4 +99,11 @@ h1.latest{
   width:50vw;
   position: relative;
   left: 25%;
+}
+
+.clips{
+  position: relative;
+  left: 15%;
+  width: 70vw;
+  border: 1px solid black;
 }
