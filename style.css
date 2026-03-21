@@ -1,5 +1,11 @@
+@font-face {
+  font-family: 'mySite'; /* 1. 任意のフォント名を指定 */
+  src: url('fonts/MOBO-Bold.otf') format('opentype'); /* 2. ファイルのパスと形式 */
+  font-weight: normal;
+  font-style: normal;
+}
 body {
-   font-family: "MOBO-Bold", "Noto Sans CJK JP", sans-serif;
+   font-family: "mySite", "Noto Sans CJK JP", sans-serif;
   overflow-x: hidden;
 }
 
