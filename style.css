@@ -141,19 +141,18 @@ div.subHead{
 
 div.background{
   position: sticky;
-  top: 3%;
+  top: 0%;
+   
   font-family: "Ubuntu Mono", "Noto Sans CJK JP";
-  background-image: url("./picture/SPR6-1.png");
-  background-clip: text;
-  font-size: 200%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  font-size: 75%;
   color: #222222;
   transform: scale(2.5, 1);
   /* 輪郭の色と太さを指定（2pxの黒色） */
-  z-index: -100000;
+  z-index: 700000;
+
+}
+div.background h1{
+  position: relative;
 
 }
 
