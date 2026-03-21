@@ -7,6 +7,7 @@
 body {
    font-family: "mySite", "Noto Sans CJK JP", sans-serif;
   overflow-x: hidden;
+  width: 85%;
 }
 
 #top{
@@ -102,6 +103,7 @@ p.yukkuri{
 }
 
 h1.latest{
+  font-size: 150%;
   margin: 0 0 0 15%;
   text-decoration: underline
 }
@@ -109,7 +111,7 @@ h1.latest{
 .yohaku{
   width:50vw;
   position: relative;
-  left: 25%;
+  left: 27%;
 }
 
 .clips{
