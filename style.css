@@ -13,7 +13,7 @@ body {
 #top{
   position: relative;
   border: 1px solid black;
-  width: 90vw
+  width: 80vw
   position: relative; 
   left:12%;
 }
@@ -106,7 +106,7 @@ p.yukkuri{
 
 h1.latest{
   position: relative;
-  left: 20%;
+  left: 16%;
   font-size: 150%;
   text-decoration: underline
 }
@@ -114,12 +114,12 @@ h1.latest{
 .yohaku{
   width:50vw;
   position: relative;
-  left: 33%;
+  left: 27%;
 }
 
 .clips{
   position: relative;
-  left: 20%;
+  left: 16%;
   width: 70vw;
   border: 1px solid black;
 }
