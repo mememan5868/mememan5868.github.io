@@ -103,20 +103,21 @@ p.yukkuri{
 }
 
 h1.latest{
+  position: relative;
+  left: 17%;
   font-size: 150%;
-  margin: 0 0 0 15%;
   text-decoration: underline
 }
 
 .yohaku{
   width:50vw;
   position: relative;
-  left: 27%;
+  left: 28%;
 }
 
 .clips{
   position: relative;
-  left: 15%;
+  left: 17%;
   width: 70vw;
   border: 1px solid black;
 }
