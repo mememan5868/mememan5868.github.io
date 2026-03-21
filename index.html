@@ -10,13 +10,15 @@
 		<link rel="stylesheet" type="text/css" href="style.css" media="all">
 	</head>
 	<body>
-		<div id="box">
-		</div>
 		<div id="top" class="pageTitle">
 
 			<img class="flex" id="titleIcon" src="./picture/154.png" alt="アイコンが読み込めませんでした。">
-			<h1 id="title" class="txt">
-				おぶしの掲示板
+			<div class="background">
+				<h1>obsid</h1>
+			</div>
+
+			<h1 id="title">
+				<span class="txt">おぶしの掲示板</span>
 			</h1>
 			<h6 id="subTitle">
 				obsid's message board.
@@ -29,7 +31,7 @@
 					<br>
 				</span>
 				<br>
-				<a style="color:#FFFFFF" href="https://note.com/obsid_midage">https://note.com/obsid_midage</a>
+				<a class="txt" style="color:#FFFFFF " href="https://note.com/obsid_midage">おぶしのノート垢</a>
 			</p>
 			<div class="mokuji txt">
 				<h3>
@@ -37,10 +39,10 @@
 				</h3>
 				<ol>
 					<li>
-						<a href=#title>ページタイトル</a>
+						<a href=#title style="color: #000000;">ページタイトル</a>
 					</li>
 					<li>
-						<a href=#posts>新着記事</a>
+						<a href=#posts style="color: #000000;">新着記事</a>
 					</li>
 				</ol>
 			</div>
@@ -48,6 +50,7 @@
 				ゆっくりしていってね！！！
 			</p>
 		</div>
+
 		<br>
 		<img class="yohaku"
 		     src="./picture/winux.png"
@@ -56,9 +59,17 @@
 		<br>
 		<br>
 		<div id="posts">
-			<h1 class="latest">
-				新着記事 <span class="subHead">Latest Posts</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			</h1>
+			<div class="latestDiv">
+
+				<div class="subHead">
+					<h1 class="latest">
+						新着記事 Latest Posts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</h1>
+				</div>
+				<div class="background2">
+					<h1>mid-age</h1>
+				</div>
+			</div>
 			<br>
 			<div class="clips" id="linkToLatest1">
 				<h1>
