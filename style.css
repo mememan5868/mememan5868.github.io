@@ -144,7 +144,7 @@ div.background{
   top: 0%;
    
   font-family: "Ubuntu Mono", "Noto Sans CJK JP";
-  font-size: 75%;
+  font-size: 50%;
   color: #222222;
   transform: scale(2.5, 1);
   /* 輪郭の色と太さを指定（2pxの黒色） */
